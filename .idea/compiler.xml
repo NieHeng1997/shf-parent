@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="serviceacll" />
+        <module name="common-util" />
+        <module name="web-front" />
+        <module name="service-house" />
+        <module name="web-admin" />
+        <module name="model" />
+        <module name="serviceacl" />
+        <module name="service-user" />
+        <module name="service-api" />
+        <module name="service-acl" />
+        <module name="service-aac" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="8" />
+      <module name="service-acc" target="8" />
+      <module name="service-acl" target="1.7" />
+      <module name="service_acl" target="1.7" />
+      <module name="serviceacl" target="8" />
+      <module name="serviceacll" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
