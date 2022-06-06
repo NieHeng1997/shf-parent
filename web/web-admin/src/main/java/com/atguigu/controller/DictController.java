@@ -28,6 +28,12 @@ public class DictController {
         System.out.println("入参数：" + id);
         List<Map<String, Object>> znodes = dictService.findZnodes(id);
         System.out.println("-------------------");
+        System.out.println("本次改动，模拟代码冲突");
+        System.out.println("入参数：" + id);
+        System.out.println("本次改动，模拟代码冲突");
+        System.out.println("入参数：" + id);
+        System.out.println("本次改动，模拟代码冲突");
+        System.out.println("入参数：" + id);
         return Result.ok(znodes);
     }
 
