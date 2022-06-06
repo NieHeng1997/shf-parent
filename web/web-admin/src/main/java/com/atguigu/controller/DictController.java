@@ -24,6 +24,8 @@ public class DictController {
     @GetMapping("/findZnodes")
     public Result findZnodes(@RequestParam(value = "id",defaultValue = "0") Long id){
         //调用业务层的方法查询数据
+        System.out.println("本次改动，模拟代码冲突");
+        System.out.println("入参数：" + id);
         List<Map<String, Object>> znodes = dictService.findZnodes(id);
         System.out.println("-------------------");
         return Result.ok(znodes);
